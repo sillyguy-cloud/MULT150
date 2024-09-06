@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 13658805}
   - component: {fileID: 13658804}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Creeper Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,23 +213,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13658803}
   m_LocalRotation: {x: -0.0023756577, y: 0.0100455545, z: 0.0326642, w: 0.99941313}
-  m_LocalPosition: {x: 0.040000003, y: 3.5, z: -1.35}
+  m_LocalPosition: {x: 0.164, y: 0.13499999, z: -0.68200004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 169162153}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.31, y: 1.142, z: 3.741}
+--- !u!1 &169162152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169162153}
+  m_Layer: 0
+  m_Name: Creeper Face
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &169162153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169162152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 868148934}
-  - {fileID: 1505425738}
-  - {fileID: 488286296}
-  - {fileID: 964674519}
-  - {fileID: 762897106}
-  - {fileID: 1192259212}
-  - {fileID: 1843995924}
+  - {fileID: 13658807}
   - {fileID: 1861181328}
   - {fileID: 1429731007}
   - {fileID: 2054817057}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -0.31, y: 1.142, z: 3.741}
+  - {fileID: 1192259212}
+  - {fileID: 1843995924}
+  m_Father: {fileID: 1060102579}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &311186600
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +443,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &488286295
 GameObject:
@@ -431,7 +458,7 @@ GameObject:
   - component: {fileID: 488286298}
   - component: {fileID: 488286297}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Creeper Leg 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,13 +471,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488286295}
-  m_LocalRotation: {x: -0.069250345, y: 0.0059053823, z: -0.084762, w: 0.9939744}
-  m_LocalPosition: {x: 0.49016258, y: -2.9827445, z: 0.8078842}
-  m_LocalScale: {x: 0.5359634, y: 0.53596336, z: 0.5359634}
+  m_LocalRotation: {x: -0.072615415, y: 0.013423567, z: -0.051563237, w: 0.9959358}
+  m_LocalPosition: {x: 0.864, y: -2.805, z: 0.12799996}
+  m_LocalScale: {x: 0.5359634, y: 0.5359633, z: 0.5359636}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 2
+  m_Father: {fileID: 1246604342}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -8.236, y: 1.982, z: -6.07}
 --- !u!65 &488286297
 BoxCollider:
@@ -528,7 +555,7 @@ GameObject:
   - component: {fileID: 762897108}
   - component: {fileID: 762897107}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Creeper Leg 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -541,13 +568,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762897105}
-  m_LocalRotation: {x: -2.3283064e-10, y: -0, z: -0.013922781, w: 0.9999031}
-  m_LocalPosition: {x: -0.72392803, y: -2.8531804, z: 0.79384494}
-  m_LocalScale: {x: 0.5359634, y: 0.5359634, z: 0.5359634}
+  m_LocalRotation: {x: -0.0025152897, y: 0.010011505, z: 0.01874642, w: 0.99977106}
+  m_LocalPosition: {x: -0.356, y: -2.7549999, z: 0.13800001}
+  m_LocalScale: {x: 0.5359634, y: 0.5359634, z: 0.5359635}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 4
+  m_Father: {fileID: 1246604342}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -0.31, y: 1.142, z: 2.145}
 --- !u!65 &762897107
 BoxCollider:
@@ -625,7 +652,7 @@ GameObject:
   - component: {fileID: 868148936}
   - component: {fileID: 868148935}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Creeper Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,13 +665,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868148933}
-  m_LocalRotation: {x: -0, y: -0, z: -0.039988387, w: 0.99920017}
-  m_LocalPosition: {x: -0.049747255, y: -1.6803163, z: -0.007884595}
-  m_LocalScale: {x: 1, y: 1.993, z: 1}
+  m_LocalRotation: {x: -0.002775463, y: 0.009942521, z: -0.007326845, w: 0.99991995}
+  m_LocalPosition: {x: 0.22399999, y: -1.545, z: -0.68200004}
+  m_LocalScale: {x: 1, y: 1.9929999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 0
+  m_Father: {fileID: 1060102579}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -0.31, y: 1.142, z: -0.843}
 --- !u!65 &868148935
 BoxCollider:
@@ -722,7 +749,7 @@ GameObject:
   - component: {fileID: 964674521}
   - component: {fileID: 964674520}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Creeper Leg 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -735,13 +762,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964674518}
-  m_LocalRotation: {x: 2.3283064e-10, y: -0, z: -0.08157145, w: 0.99666756}
-  m_LocalPosition: {x: -0.72834617, y: -2.8585784, z: -0.00643719}
-  m_LocalScale: {x: 0.5359634, y: 0.5359634, z: 0.5359634}
+  m_LocalRotation: {x: -0.0031871707, y: 0.009818292, z: -0.04896823, w: 0.99874705}
+  m_LocalPosition: {x: -0.376, y: -2.765, z: -0.66200006}
+  m_LocalScale: {x: 0.53596336, y: 0.53596354, z: 0.5359635}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 3
+  m_Father: {fileID: 1246604342}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.31, y: 1.142, z: -5.617}
 --- !u!65 &964674520
 BoxCollider:
@@ -806,6 +833,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964674518}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1060102578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1060102579}
+  m_Layer: 0
+  m_Name: Creeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1060102579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060102578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.124, y: 3.365, z: -0.668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 169162153}
+  - {fileID: 868148934}
+  - {fileID: 1246604342}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1192259211
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +880,7 @@ GameObject:
   - component: {fileID: 1192259214}
   - component: {fileID: 1192259213}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Creeper Eye 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -832,13 +893,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192259211}
-  m_LocalRotation: {x: -0.06857906, y: 0.011286928, z: -0.007002718, w: 0.9975572}
-  m_LocalPosition: {x: 0.26006675, y: 0.18204972, z: 0.6241404}
-  m_LocalScale: {x: 0.19671573, y: 0.19671574, z: -0.01395799}
+  m_LocalRotation: {x: -0.07134767, y: 0.019044604, z: 0.026247887, w: 0.9969243}
+  m_LocalPosition: {x: 0.42400002, y: 0.3369999, z: -0.06400001}
+  m_LocalScale: {x: 0.19671573, y: 0.19671579, z: -0.01395799}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 5
+  m_Father: {fileID: 169162153}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -8.236, y: 1.982, z: 2.874}
 --- !u!65 &1192259213
 BoxCollider:
@@ -903,6 +964,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192259211}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1246604341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246604342}
+  m_Layer: 0
+  m_Name: Creeper Legs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1246604342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246604341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1505425738}
+  - {fileID: 488286296}
+  - {fileID: 964674519}
+  - {fileID: 762897106}
+  m_Father: {fileID: 1060102579}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1429731006
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +1012,7 @@ GameObject:
   - component: {fileID: 1429731009}
   - component: {fileID: 1429731008}
   m_Layer: 0
-  m_Name: Cube (9)
+  m_Name: Creeper Mouth 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -929,13 +1025,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429731006}
-  m_LocalRotation: {x: -0.040071093, y: 0.05678725, z: 0.7059327, w: 0.7048607}
-  m_LocalPosition: {x: 0.2229482, y: -0.12642804, z: 0.6681363}
-  m_LocalScale: {x: 0.34730163, y: 0.19671574, z: -0.01395799}
+  m_LocalRotation: {x: -0.036485504, y: 0.06420279, z: 0.72880965, w: 0.68072265}
+  m_LocalPosition: {x: 0.408, y: 0.02699995, z: -0.018000007}
+  m_LocalScale: {x: 0.3473017, y: 0.19671582, z: -0.01395799}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 8
+  m_Father: {fileID: 169162153}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -8.236, y: 1.982, z: 93.765}
 --- !u!65 &1429731008
 BoxCollider:
@@ -1013,7 +1109,7 @@ GameObject:
   - component: {fileID: 1505425740}
   - component: {fileID: 1505425739}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Creeper Leg 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1026,13 +1122,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505425737}
-  m_LocalRotation: {x: -0, y: -0, z: 5.893525e-10, w: 1}
-  m_LocalPosition: {x: 0.48659927, y: -2.978123, z: -0.0023416728}
-  m_LocalScale: {x: 0.5359634, y: 0.5359635, z: 0.5359634}
+  m_LocalRotation: {x: -0.0023756577, y: 0.0100455545, z: 0.0326642, w: 0.99941313}
+  m_LocalPosition: {x: 0.84400004, y: -2.805, z: -0.68200004}
+  m_LocalScale: {x: 0.5359634, y: 0.53596365, z: 0.5359635}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 1
+  m_Father: {fileID: 1246604342}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -0.31, y: 1.142, z: 3.741}
 --- !u!65 &1505425739
 BoxCollider:
@@ -1194,7 +1290,7 @@ GameObject:
   - component: {fileID: 1843995926}
   - component: {fileID: 1843995925}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Creeper Eye 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1207,13 +1303,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843995923}
-  m_LocalRotation: {x: -0.06857906, y: 0.011286928, z: -0.007002718, w: 0.9975572}
-  m_LocalPosition: {x: -0.25962296, y: 0.17887592, z: 0.63761455}
-  m_LocalScale: {x: 0.19671573, y: 0.19671574, z: -0.01395799}
+  m_LocalRotation: {x: -0.07134767, y: 0.019044604, z: 0.026247887, w: 0.9969243}
+  m_LocalPosition: {x: -0.09399998, y: 0.29999995, z: -0.04000002}
+  m_LocalScale: {x: 0.19671573, y: 0.19671579, z: -0.01395799}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 6
+  m_Father: {fileID: 169162153}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -8.236, y: 1.982, z: 2.874}
 --- !u!65 &1843995925
 BoxCollider:
@@ -1291,7 +1387,7 @@ GameObject:
   - component: {fileID: 1861181330}
   - component: {fileID: 1861181329}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: Creeper Mouth 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1304,13 +1400,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861181327}
-  m_LocalRotation: {x: -0.06857906, y: 0.011286928, z: -0.007002718, w: 0.9975572}
-  m_LocalPosition: {x: -0.018130764, y: -0.044488363, z: 0.66159207}
-  m_LocalScale: {x: 0.34730163, y: 0.19671574, z: -0.01395799}
+  m_LocalRotation: {x: -0.07134765, y: 0.019044597, z: 0.026247848, w: 0.9969242}
+  m_LocalPosition: {x: 0.16199996, y: 0.092999935, z: -0.02000004}
+  m_LocalScale: {x: 0.3473017, y: 0.19671585, z: -0.0139579885}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 7
+  m_Father: {fileID: 169162153}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -8.236, y: 1.982, z: 2.874}
 --- !u!65 &1861181329
 BoxCollider:
@@ -1388,7 +1484,7 @@ GameObject:
   - component: {fileID: 2054817059}
   - component: {fileID: 2054817058}
   m_Layer: 0
-  m_Name: Cube (10)
+  m_Name: Creeper Mouth 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1401,13 +1497,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2054817056}
-  m_LocalRotation: {x: -0.040071093, y: 0.05678725, z: 0.7059327, w: 0.7048607}
-  m_LocalPosition: {x: -0.1862246, y: -0.12678592, z: 0.6778575}
-  m_LocalScale: {x: 0.34730163, y: 0.19671574, z: -0.01395799}
+  m_LocalRotation: {x: -0.036485504, y: 0.06420279, z: 0.72880965, w: 0.6807227}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34730166, y: 0.19671579, z: -0.01395799}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 13658807}
-  m_RootOrder: 9
+  m_Father: {fileID: 169162153}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -8.236, y: 1.982, z: 93.765}
 --- !u!65 &2054817058
 BoxCollider:
